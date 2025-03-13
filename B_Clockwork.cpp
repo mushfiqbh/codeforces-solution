@@ -1,0 +1,43 @@
+// Author: Mushfiq R.
+#include <bits/stdc++.h>
+#define endl "\n"
+#define ll long long
+#define ld long double
+#define ull unsigned long long
+#define vsort(v) sort(v.begin(), v.end())
+#define rsort(v) sort(v.begin(), v.end(), greater<int>())
+#define fastIO() (ios_base::sync_with_stdio(false), cin.tie(NULL));
+using namespace std;
+
+int main()
+{
+    fastIO();
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int n;
+        cin >> n;
+        vector<int> arr(n);
+
+        for (int i = 0; i < n; i++)
+        {
+            cin >> arr[i];
+        }
+
+        for (int i = 0; i < n; i++)
+        {
+            // int r = n - i - 1;
+            // int l = i;
+            if (arr[i] < (2 * max(i, n - i - 1) + 1))
+            {
+                cout << "NO" << endl;
+                goto end;
+            }
+        }
+
+        cout << "YES" << endl;
+    end:;
+    }
+    return 0;
+}

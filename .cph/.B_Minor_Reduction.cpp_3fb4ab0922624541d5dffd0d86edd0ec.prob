@@ -1,0 +1,1 @@
+{"name":"Local: B_Minor_Reduction","url":"c:\\Users\\HP\\OneDrive\\Documents\\C-Plus-Plus\\B_Minor_Reduction.cpp","tests":[{"id":1736954522177,"input":"2\n10057\n90","output":"10012\n9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\OneDrive\\Documents\\C-Plus-Plus\\B_Minor_Reduction.cpp","group":"local","local":true}
