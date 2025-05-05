@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cin >> n;
-
+    for(int i=2; i<100; i++){
+        cout << i << " " << i*i*i << endl;
+    }
 
     return 0;
 }
